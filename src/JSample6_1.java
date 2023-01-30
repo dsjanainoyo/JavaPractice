@@ -10,7 +10,7 @@ public class JSample6_1 {
 		int sum = 0;
 		
 		//10回繰り返す
-		for (int i =1; i <= 10; i++) {
+		for (int i =1; i <= 10; i= i + 1) {
 			sum = sum + i; //数値を順に加算する
 		}
 		
